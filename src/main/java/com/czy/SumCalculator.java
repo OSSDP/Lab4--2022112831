@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SumCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        // just make some change in code
         try (scanner) {
             System.out.println("请输入第一个数字：");
             String input1 = scanner.nextLine();
