@@ -14,7 +14,7 @@ public class SumCalculatorTest {
     public void sumOfTwoPositiveNumbers() {
         BigDecimal num1 = new BigDecimal("10"); // 第一个正数
         BigDecimal num2 = new BigDecimal("20"); // 第二个正数
-        BigDecimal expected = new BigDecimal("35"); // 预期结果
+        BigDecimal expected = new BigDecimal("30"); // 预期结果
         assertEquals(expected, num1.add(num2)); // 验证计算结���是否与预期一致
     }
 
