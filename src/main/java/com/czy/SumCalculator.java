@@ -24,6 +24,7 @@ public class SumCalculator {
             System.out.println("输入无效，请确保输入的是有效的数字。");
         } catch (Exception e) {
             System.out.println("出现错误：" + e.getMessage());
+            
         }
     }
 }
